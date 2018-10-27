@@ -16,17 +16,6 @@ int main()
 	{
 		printf("NO");
 	}
-
-
-	//while(n != 0)
-	//{
-	//	if (n % 10 != 4 && n % 10 != 7)
-	//	{
-	//		printf("NO");
-	//		return 0;
-	//	}
-	//	n /= 10;
-	//}
 	
 	
 	return 0;
