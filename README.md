@@ -1,2 +1,2 @@
 # Codeforeces Problems
-A collection of solutions for Codeforces' problems I made to keep track of my progress
+A collection of C/C++ solutions for Codeforces' problems I made to keep track of my progress
