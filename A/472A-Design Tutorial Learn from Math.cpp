@@ -20,27 +20,12 @@ int main()
 	int InputInt;
 	cin >> InputInt;
 
-	// Try to divide the input into 2 numbers
+	// Try to factorize the input into 2 numbers one of them being 4 since 4 is the smallest composite number.
 	int N = 4;
 	int M = InputInt - 4;
 
-	//// check if the input can be evenly divided into two composite numbers
-	//if ( (InputInt / 2.f) ==  N && IsComposite(N))
-	//{
-	//	cout << N << " " << M;
-	//}
-	//else
-	//{
-	//	// If the input was odd, we need to add the fraction part that was truncated in int division
-	//	if (! (InputInt % 2 == 0) )
-	//		N++;
-
-	//	// If it can't be evenly divided then we can start adding one to one of the factors
-	//	// And subtracting one from the other, if the result is 2 composite numbers, then that is our output
-
-
-	//}
-
+	// Check if both factors are composite.
+	// If they are not composite, increment one factor while decreasing the other till we reach 2 composite factors.
 	while ( !(IsComposite(N) && IsComposite(M)) )
 	{
 		N++;
